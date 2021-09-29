@@ -8,6 +8,11 @@ const routes = [
     path: '/mail',
     name: 'mail',
     component: () => import(/* webpackChunkName: 'mail' */'@/views/mail/index')
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import(/* webpackChunkName: 'login' */'@/views/login/index')
   }
 ]
 
